@@ -1,7 +1,3 @@
-Perfekt! Ich habe die `README.md` aktualisiert und die von dir genannten Projekte mit einer kurzen Beschreibung hinzugefügt.
-
----
-
 # KI Werkstatt der HTW Berlin
 
 > Ein Ort zum gemeinsamen Forschen, Lehren und Anwenden von KI-Technologie.
