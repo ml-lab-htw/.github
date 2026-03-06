@@ -22,6 +22,8 @@ Unsere Arbeit konzentriert sich auf drei Kernbereiche:
 
 Hier ist eine Auswahl unserer wichtigsten Repositories. Stöbert gerne durch den Code und lasst euch inspirieren!
 
+*   **[concept-tracer](https://github.com/ml-lab-htw/concept-tracer)**: Interaktive Analyse von Embeddings mit Konzepten.
+*   **[tab-embeddings](https://github.com/ml-lab-htw/tab-embeddings)**: Large Language Model Embeddings für Tabellendaten.
 *   **[deepbench](https://github.com/ml-lab-htw/deepbench)**: Ein Framework für Benchmarking von Deep-Learning-Modellen.
 *   **[llm-trees](https://github.com/ml-lab-htw/llm-trees)**: Zero-Shot Decision Tree Induction und Embedding mit Large Language Models.
 *   **[raman_data](https://github.com/ml-lab-htw/raman_data)**: Datensätze und Analysetools für die Raman-Spektroskopie.
