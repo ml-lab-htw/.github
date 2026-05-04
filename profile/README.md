@@ -18,9 +18,9 @@ Unsere Arbeit konzentriert sich auf drei Kernbereiche:
 *   **🔬 Forschung:** Wir fördern die interdisziplinäre und gemeinsame Forschung zum Thema Künstliche Intelligenz an der HTW Berlin.
 *   **💻 Service & Anwendung:** Wir stellen eine leistungsstarke Infrastruktur, wie unseren neuen Ollama Server mit 2x H100 GPUs, zur Verfügung und unterstützen bei der Umsetzung innovativer Projekte.
 
-:## 🧪 RamanBench — Benchmark für Raman-Spektroskopie-KI
+## 🧪 RamanBench — Benchmark für Raman-Spektroskopie-KI
 
-RamanBench ist ein offenes Benchmark-Framework für das systematische Evaluieren von ML-Modellen auf Raman-Spektroskopiedaten.
+RamanBench ist ein offenes Benchmark-Framework für das systematische Evaluieren von ML-Modellen auf Raman-Spektroskopiedaten — inklusive öffentlichem Leaderboard und einem kuratierten Datensatz-Paket.
 
 | | |
 |---|---|
@@ -32,14 +32,65 @@ RamanBench ist ein offenes Benchmark-Framework für das systematische Evaluieren
 pip install raman-bench raman-data
 ```
 
-## 💡 Weitere Projekte
+## 🌲 llm-trees — Zero-Shot Decision Trees mit LLMs
 
-*   **[concept-tracer](https://github.com/ml-lab-htw/concept-tracer)**: Interaktive Analyse von Embeddings mit Konzepten.
-*   **[tab-embeddings](https://github.com/ml-lab-htw/tab-embeddings)**: Large Language Model Embeddings für Tabellendaten.
-*   **[deepbench](https://github.com/ml-lab-htw/deepbench)**: Ein Framework für Benchmarking von Deep-Learning-Modellen.
-*   **[llm-trees](https://github.com/ml-lab-htw/llm-trees)**: Zero-Shot Decision Tree Induction und Embedding mit Large Language Models.
-*   **[iterative-annotate](https://github.com/ml-lab-htw/iterative-annotate)**: Ein Tool für iterative Annotation und Objekterkennung zur Verbesserung von Modellen durch Feedback.
-*   **[optical_mammography_analysis](https://github.com/ml-lab-htw/optical_mammography_analysis)**: Machine-Learning-Algorithmen zur Analyse von Daten aus der dynamischen optischen Mammographie zur Erkennung von Brustkrebs.
+LLMs nutzen ihr komprimiertes Weltwissen, um intrinsisch interpretierbare Entscheidungsbäume ohne Trainingsdaten zu generieren. Zero-Shot-Bäume übertreffen auf kleinen tabellarischen Datensätzen teils datengetriebene Verfahren; Embeddings daraus liefern starke neue Baselines im Low-Data-Regime.
+
+📄 Paper: [arXiv:2409.18594](https://arxiv.org/abs/2409.18594) — *"Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree"*
+
+| | |
+|---|---|
+| 📦 **llm-trees** | [![GitHub](https://img.shields.io/badge/GitHub-llm--trees-181717?logo=github)](https://github.com/ml-lab-htw/llm-trees) [![PyPI](https://img.shields.io/pypi/v/llm_trees?label=llm-trees)](https://pypi.org/project/llm_trees/) |
+
+```bash
+pip install llm_trees
+```
+
+## 🔍 concept-tracer — Konzeptbasierte Analyse von KI-Repräsentationen
+
+Interaktives Werkzeug zur Analyse neuronaler Netzwerkrepräsentationen durch menschlich interpretierbare Konzepte. Zwei informationstheoretische Maße quantifizieren Konzeptsalienz und -selektivität; ein Web-Dashboard macht Ergebnisse explorierbar.
+
+📄 Paper: [arXiv:2604.07019](https://arxiv.org/abs/2604.07019)
+
+| | |
+|---|---|
+| 📦 **concept-tracer** | [![GitHub](https://img.shields.io/badge/GitHub-concept--tracer-181717?logo=github)](https://github.com/ml-lab-htw/concept-tracer) [![PyPI](https://img.shields.io/pypi/v/concept-tracer?label=concept-tracer)](https://pypi.org/project/concept-tracer/) |
+
+```bash
+pip install concept-tracer
+```
+
+## 🔢 tab-embeddings — LLM-Embeddings für Tabellendaten
+
+Experimentelles Framework zum Training und zur Evaluation von ML-Modellen auf tabellarischen Daten, angereichert durch LLM-basierte Text-Embeddings. Unterstützt 16 LLM-Embedding-Quellen, Random Tree Embeddings und verschiedene Fusionsstrategien.
+
+| | |
+|---|---|
+| 📦 **tab-embeddings** | [![GitHub](https://img.shields.io/badge/GitHub-tab--embeddings-181717?logo=github)](https://github.com/ml-lab-htw/tab-embeddings) |
+
+## 📊 deepbench — Robustheitsbenchmark für Bildklassifikation
+
+CLI-Tool zur systematischen Evaluation von Bildklassifikationsmodellen unter Bildaugmentierungen (Helligkeit, Blur, Rauschen, Wetterbedingungen u. v. m.). Unterstützt Hugging Face- und Ollama-Modelle (VLMs, CNNs, ViTs). Entwickelt im Rahmen des TAHAI-Projekts.
+
+| | |
+|---|---|
+| 📦 **deepbench** | [![GitHub](https://img.shields.io/badge/GitHub-deepbench-181717?logo=github)](https://github.com/ml-lab-htw/deepbench) |
+
+## 🏷️ iterative-annotate — Feedbackgetriebene Objektdetektion
+
+Mono-Repo für iterative Modellanpassung durch menschliches Feedback bei der Objektdetektion. Kombiniert ein Next.js-Frontend und ein FastAPI-Backend (GPU-fähig) via Docker Compose.
+
+| | |
+|---|---|
+| 📦 **iterative-annotate** | [![GitHub](https://img.shields.io/badge/GitHub-iterative--annotate-181717?logo=github)](https://github.com/ml-lab-htw/iterative-annotate) |
+
+## 🩺 optical_mammography_analysis — KI-Analyse optischer Mammographiedaten
+
+ML-Algorithmen zur Erkennung von Brustkrebs aus zeitaufgelösten optischen Mammographiedaten. Enthält Klassifikations- und AutoML-Experimente sowie eine Sparsifizierungssimulation reduzierter Hardwarekonfigurationen.
+
+| | |
+|---|---|
+| 📦 **optical_mammography_analysis** | [![GitHub](https://img.shields.io/badge/GitHub-optical__mammography__analysis-181717?logo=github)](https://github.com/ml-lab-htw/optical_mammography_analysis) |
 
 ## 🤝 Mach mit!
 
