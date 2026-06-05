@@ -24,7 +24,7 @@ Mit l0l2learn können die wichtigsten Merkmale für Vorhersagemodelle gefunden w
 
 | | |
 |---|---|
-| 📦 **l0l2learn** | [![GitHub](https://img.shields.io/badge/GitHub-l0l2learn-181717?logo=github)](https://github.com/ml-lab-htw/l0l2learn) [![PyPI](https://img.shields.io/pypi/v/l0l2learn?label=concept-tracer)](https://pypi.org/project/l0l2learn/) |
+| 📦 **l0l2learn** | [![GitHub](https://img.shields.io/badge/GitHub-l0l2learn-181717?logo=github)](https://github.com/ml-lab-htw/l0l2learn) [![PyPI](https://img.shields.io/pypi/v/l0l2learn?label=l0l2learn)](https://pypi.org/project/l0l2learn/) |
 
 ```bash
 pip install l0l2learn
