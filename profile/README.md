@@ -18,6 +18,18 @@ Unsere Arbeit konzentriert sich auf drei Kernbereiche:
 *   **🔬 Forschung:** Wir fördern die interdisziplinäre und gemeinsame Forschung zum Thema Künstliche Intelligenz an der HTW Berlin.
 *   **💻 Service & Anwendung:** Wir stellen eine leistungsstarke Infrastruktur, wie unseren neuen Ollama Server mit 2x H100 GPUs, zur Verfügung und unterstützen bei der Umsetzung innovativer Projekte.
 
+## 🎯 l0l2learn — Auswahl wichtiger Merkmale
+
+Mit l0l2learn können die wichtigsten Merkmale für Vorhersagemodelle gefunden werden. Es werden zwei Klassifikatoren bereitgestellt, mit optionalem Resampling zur Verbesserung der Stabilität bei der Merkmalsauswahl.
+
+| | |
+|---|---|
+| 📦 **l0l2learn** | [![GitHub](https://img.shields.io/badge/GitHub-l0l2learn-181717?logo=github)](https://github.com/ml-lab-htw/l0l2learn) [![PyPI](https://img.shields.io/pypi/v/l0l2learn?label=concept-tracer)](https://pypi.org/project/l0l2learn/) |
+
+```bash
+pip install l0l2learn
+```
+
 ## 🧪 RamanBench — Benchmark für Raman-Spektroskopie-KI
 
 RamanBench ist ein offenes Benchmark-Framework für das systematische Evaluieren von ML-Modellen auf Raman-Spektroskopiedaten — inklusive öffentlichem Leaderboard und einem kuratierten Datensatz-Paket.
@@ -36,7 +48,7 @@ pip install raman-bench raman-data
 
 LLMs nutzen ihr komprimiertes Weltwissen, um intrinsisch interpretierbare Entscheidungsbäume ohne Trainingsdaten zu generieren. Zero-Shot-Bäume übertreffen auf kleinen tabellarischen Datensätzen teils datengetriebene Verfahren; Embeddings daraus liefern starke neue Baselines im Low-Data-Regime.
 
-📄 Paper: [arXiv:2409.18594](https://arxiv.org/abs/2409.18594) — *"Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree"*
+📄 Paper: [dl.acm.org:10.1145/3711896.3736818](https://dl.acm.org/doi/10.1145/3711896.3736818) — *"Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree"*
 
 | | |
 |---|---|
@@ -63,6 +75,8 @@ pip install concept-tracer
 ## 🔢 tab-embeddings — LLM-Embeddings für Tabellendaten
 
 Experimentelles Framework zum Training und zur Evaluation von ML-Modellen auf tabellarischen Daten, angereichert durch LLM-basierte Text-Embeddings. Unterstützt 16 LLM-Embedding-Quellen, Random Tree Embeddings und verschiedene Fusionsstrategien.
+
+📄 Paper: [arxiv:2603.17737](https://arxiv.org/abs/2603.17737)
 
 | | |
 |---|---|
