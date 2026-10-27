@@ -22,6 +22,8 @@ Unsere Arbeit konzentriert sich auf drei Kernbereiche:
 
 Mit l0l2learn können die wichtigsten Merkmale für Vorhersagemodelle gefunden werden. Es werden zwei Klassifikatoren bereitgestellt, mit optionalem Resampling zur Verbesserung der Stabilität bei der Merkmalsauswahl.
 
+📄 Paper: [doi.org:10.1515/ijb-2025-0024](https://www.degruyterbrill.com/de/document/doi/10.1515/ijb-2025-0024/html)
+
 | | |
 |---|---|
 | 📦 **l0l2learn** | [![GitHub](https://img.shields.io/badge/GitHub-l0l2learn-181717?logo=github)](https://github.com/ml-lab-htw/l0l2learn) [![PyPI](https://img.shields.io/pypi/v/l0l2learn?label=l0l2learn)](https://pypi.org/project/l0l2learn/) |
@@ -48,7 +50,7 @@ pip install raman-bench raman-data
 
 LLMs nutzen ihr komprimiertes Weltwissen, um intrinsisch interpretierbare Entscheidungsbäume ohne Trainingsdaten zu generieren. Zero-Shot-Bäume übertreffen auf kleinen tabellarischen Datensätzen teils datengetriebene Verfahren; Embeddings daraus liefern starke neue Baselines im Low-Data-Regime.
 
-📄 Paper: [dl.acm.org:10.1145/3711896.3736818](https://dl.acm.org/doi/10.1145/3711896.3736818) — *"Oh LLM, I'm Asking Thee, Please Give Me a Decision Tree"*
+📄 Paper: [doi.org:10.1145/3711896.3736818](https://dl.acm.org/doi/10.1145/3711896.3736818)
 
 | | |
 |---|---|
@@ -62,7 +64,7 @@ pip install llm_trees
 
 Interaktives Werkzeug zur Analyse neuronaler Netzwerkrepräsentationen durch menschlich interpretierbare Konzepte. Zwei informationstheoretische Maße quantifizieren Konzeptsalienz und -selektivität; ein Web-Dashboard macht Ergebnisse explorierbar.
 
-📄 Paper: [arXiv:2604.07019](https://arxiv.org/abs/2604.07019)
+📄 Paper: [urn:nbn:de:0074-4259-x](https://ceur-ws.org/Vol-4259/paper6.pdf)
 
 | | |
 |---|---|
